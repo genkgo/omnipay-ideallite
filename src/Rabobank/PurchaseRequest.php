@@ -44,8 +44,7 @@ class PurchaseRequest extends AbstractRequest {
 
     public function setDescription($value)
     {
-        $value = str_replace('/', ' ', $value);
-        return $this->setParameter('description', substr($value, 0, 80));
+        return $this->setParameter('description', $value);
     }
     public function getSubId()
     {
