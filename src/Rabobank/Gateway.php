@@ -17,7 +17,7 @@ class Gateway extends AbstractGateway {
         }
         $request->setCurrency('EUR');
         $request->setLanguage('nl_NL');
-        $request->setValidUntil(new \DateInterval('PT1H'));
+        $request->setValidUntil(new \DateInterval('PT30M'));
         $request->setPaymentMethod('ideal');
         return $request;
     }
