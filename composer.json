@@ -1,0 +1,13 @@
+{
+	"name" : "genkgo/omnipay-ideallite",
+	"description" : "Omnipay Gateway to support ideallite",
+	"autoload" : {
+		"psr-4" : {
+			"Omnipay\\IdealLite\\" : "src"
+		}
+	},
+	"require" : {
+		"php" : ">=5.4",
+		"omnipay/common" : "~2.3.1"
+	}
+}
