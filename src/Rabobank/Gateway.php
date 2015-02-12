@@ -16,7 +16,7 @@ class Gateway extends AbstractGateway {
             $request->setUrl('https://ideal.rabobank.nl/ideal/mpiPayInitRabo.do');
         }
         $request->setCurrency('EUR');
-        $request->setLanguage('nl_NL');
+        $request->setLanguage('nl');
         $request->setValidUntil(new \DateInterval('PT30M'));
         $request->setPaymentMethod('ideal');
         return $request;
