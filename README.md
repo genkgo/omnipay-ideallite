@@ -16,5 +16,5 @@ Requires PHP 5.4 or later. It is installable and autoloadable via Composer as
 ## Use with caution
 
 Do not use this library for your webshop. The payment validation methods by iDeal lite, easy and basic are not considered
-safe. You might use it for donations. This library can also help you upgrade clients that are still using iDeal lite, basic
-and easy payments.
+safe. You might use it for donations. The intention for this library is to help you upgrade clients that are still using
+iDeal lite, basic and easy payments.
